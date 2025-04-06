@@ -29,8 +29,11 @@ import threejs from "./tech/threejs.svg";
 import firstTestimonial from './Tars Ken.webp';
 import secondTestimonial from './image.webp';
 import thirdTestimonial from './third testimonial.webp'
-
+import proj1 from './proj1.png'
+import proj2 from './project3.png'
 export {
+  proj1,
+  proj2,
   logo,
   backend,
   creator,

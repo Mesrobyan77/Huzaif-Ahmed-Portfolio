@@ -1,4 +1,3 @@
-
 import {
   logo,
   backend,
@@ -16,7 +15,6 @@ import {
   express,
   aws,
   mui,
-  
   gsap,
   framer,
   figma,
@@ -32,20 +30,17 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
-} from '../assets'
-
+  proj1,
+  proj2
+} from "../assets";
 
 // Import Tekisky separately
 import tekisky from "../assets/company/tekisky.png";
 
-
 export const navLinks = [
-
-
   {
     id: "about",
     title: "About",
-    
   },
   {
     id: "work",
@@ -70,10 +65,6 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Ui UX Designer",
-    icon: creator,
-  },
 ];
 
 const technologies = [
@@ -93,16 +84,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
 
- 
   {
     name: "Three JS",
     icon: threejs,
@@ -114,10 +96,6 @@ const technologies = [
   {
     name: "Redux Toolkit",
     icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Material Ui",
@@ -132,10 +110,6 @@ const technologies = [
     icon: express,
   },
   {
-    name: "AWS",
-    icon: aws,
-  },
-  {
     name: "MongoDB",
     icon: mongodb,
   },
@@ -148,8 +122,6 @@ const technologies = [
     name: "git",
     icon: git,
   },
- 
-
 ];
 
 const experiences = [
@@ -197,56 +169,27 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "Weather App",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      'WeatherWise is a modern web application that provides real-time weather updates, forecasts, and location-based data with a clean and responsive user interface.',
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Scss",
         color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
- 
+      }, 
     ],
-    image: project2,
+    image: proj2,
     source_code_link: "https://github.com/",
   },
+  
   {
-    name: "GearXpert",
+    name: "Online Shop",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GoGroove-Ecommerce",
-    description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Tekisky Mart is an online clothing store where users can effortlessly browse, search, and shop for a wide range of apparel from various brands, offering a stylish and seamless shopping experience.",
     tags: [
       {
         name: "react",
@@ -261,11 +204,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MySQL",
         color: "green-text-gradient",
       },
     ],
-    image: project3,
+    image: proj1,
     source_code_link: "https://github.com/",
   },
 ];
